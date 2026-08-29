@@ -1,6 +1,6 @@
 cask "dodb" do
-  version "0.3.6"
-  sha256 "dd27fa2a38fbf31135da7ee0adf92935ce241b983e2b17420c621dd656a801a7"
+  version "0.3.7"
+  sha256 "7ec3757b47cd50e51e3ce325347da5fe992eb62beac68f11e6d395189f28eb0a"
 
   url "https://github.com/thutil/dodb/releases/download/v#{version}/dodb_#{version}_universal.dmg"
   name "dodb"
@@ -16,7 +16,7 @@ cask "dodb" do
   # replace it. Flip to true only once the in-app updater ships:
   # claiming it now leaves `brew upgrade --cask dodb` users stale.
   auto_updates false
-  depends_on macos: ">= :big_sur"
+  depends_on macos: ">= :sonoma"
 
   app "dodb.app"
 
