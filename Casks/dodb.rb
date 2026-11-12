@@ -1,6 +1,6 @@
 cask "dodb" do
-  version "0.4.9"
-  sha256 "e583e1576c3883ad77baab358bb4386a4608a0d33ccb0f87087c163fadc315e3"
+  version "0.4.10"
+  sha256 "fc0c7adda240cd29181780e017505f8be184c7531870d56d6ac618f304083715"
 
   url "https://github.com/thutil/dodb/releases/download/v#{version}/dodb_#{version}_universal.dmg"
   name "dodb"
